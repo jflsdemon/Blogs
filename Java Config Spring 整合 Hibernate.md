@@ -219,7 +219,7 @@ public class StudentHibernateDaoIml implements StudentDao {
 	}
 }
 ```
-5. 创建dao包中的类
+6. 创建dao包中的类
     - 创建service包中的类
 ```java
 public interface StudentService {
@@ -237,7 +237,7 @@ public class StudentHibernateServiceImp implements StudentService{
 	}
 }
 ```
-6. 测试Spring和Hibernate整合
+7. 测试Spring和Hibernate整合
 - 在src/test/java中，创建测试类
 ```java
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -257,8 +257,3 @@ public class TestHibernate {
 	}
 }
 ```
-
-
-
-
-
